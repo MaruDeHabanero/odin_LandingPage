@@ -7,12 +7,40 @@ body {
     margin: 0;
 }
 
+.content-1, .content-2, .content-3, .content-4 { 
+    flex: 1;
+}
+
 .header {
     display: flex;
-    justify-content: space-evenly;
-    gap: 10px 0px;
+    justify-content: space-around;
+    padding: auto 20vw auto 20vw;
 }
 
 .header a {
     padding: 5px
+}
+
+.content-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 100px;
+    padding: 30px 20vw 30px 20vw;
+}
+
+.content-1 .hero #sign-up {
+    padding: 10px 25px 10px 25px;
+}
+
+.content-1 #content-1-img {
+    height: auto;
+    width: 100%
+}
+
+.footer {
+    padding: 40px;
+    text-align: center;
 }
