@@ -61,6 +61,7 @@ a {
     border-style: solid;
 }
 
-.images div {
-    border-color: #3882F6;
+.images div img {
+    border: 5px solid #3882F6;
+    border-radius: 5px;
 }
